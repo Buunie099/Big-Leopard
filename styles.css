@@ -1,9 +1,6 @@
 @font-face {
-    font-family: 'Bebas Neue Bold';
-    font-style: BOLD;
-    font-weight: 2;
-    font-display: swap;
-    src: url(fonts/BebasNeue-Regular.ttf) format('ttf');
+    font-family: 'Bebas Neue';
+    src: url(fonts/BebasNeue-Regular.ttf);
 }
 
 body {
@@ -11,7 +8,7 @@ body {
 }
 h1 {
     color: #8f9400;
-    font-family: "Bebas Neue Bold", serif;
+    font-family: "Bebas Neue", serif;
 }
 p {
     color: #8f9400;
