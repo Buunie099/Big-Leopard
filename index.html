@@ -34,12 +34,15 @@
             "images/iwantyou.png",
             "images/unite.png",
             "images/unitetool.png",
-            "images/wantaction.png",
+            "images/wantaction.png"
         ];
 
         function changeImage() {
-            lastindex = index;
-            index = Math.floor(Math.random() * images.length);
+            // index = Math.floor(Math.random() * images.length);
+            index++;
+            if (index === images.length) {
+                index = 0;
+            }
             document.getElementById("propaganda").src = images[index];
         }
         window.onload = function() {
