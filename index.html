@@ -40,12 +40,6 @@
         function changeImage() {
             lastindex = index;
             index = Math.floor(Math.random() * images.length);
-            if (index === lastindex) {
-                index++;
-            }
-            if (index === images.length) {
-                index -= 2;
-            }
             document.getElementById("propaganda").src = images[index];
         }
         window.onload = function() {
